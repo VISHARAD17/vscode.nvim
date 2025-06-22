@@ -502,11 +502,7 @@ theme.set_highlights = function(opts)
     hl(0, 'NvimTreeCursorLine', { fg = 'NONE', bg = opts.disable_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftMid })
     hl(0, 'NvimTreeVertSplit', { fg = opts.disable_nvimtree_bg and c.vscSplitDark or c.vscBack, bg = c.vscBack })
     hl(0, 'NvimTreeEndOfBuffer', {fg = '#6e7681', bg = 'none'})
-    hl(
-        0,
-        'NvimTreeOpenedFolderName',
-        { fg = 'NONE', bg = opts.disable_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftDark }
-    )
+    hl(0, 'NvimTreeOpenedFolderName', { fg = '#f1f1f1', bg = '#181818', bold = true })
     hl(0, 'NvimTreeGitRenamed', { fg = c.vscGitRenamed, bg = 'NONE' })
     hl(0, 'NvimTreeGitIgnored', { fg = c.vscGitIgnored, bg = 'NONE' })
     hl(0, 'NvimTreeGitDeleted', { fg = c.vscGitDeleted, bg = 'NONE' })
